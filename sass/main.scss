@@ -1,0 +1,16 @@
+// custom variables
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+    "altorange" : #FF6300,
+    "altgrey" : #F5F5F5,
+    "altgrey2" : #545454
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//boostrap import
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
